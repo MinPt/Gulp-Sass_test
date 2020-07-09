@@ -1,0 +1,47 @@
+.row {
+  background-color: #a9a9a9; }
+
+.inner-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.my-15em {
+  margin-top: 15em;
+  margin-bottom: 15em; }
+
+.inner-nav > a {
+  margin: auto; }
+
+.big-header-text {
+  font-size: 300%;
+  margin-top: 4em; }
+
+.big-margin-bottom {
+  margin-bottom: 10em; }
+
+.about-mrg {
+  margin: 3em 0; }
+
+.small-company-icon {
+  width: 3vw;
+  border-radius: 100%; }
+
+.medium-image {
+  border-radius: 100%;
+  margin-bottom: 2em; }
+
+.start-text-justify {
+  text-align: start; }
+
+.mid-margin-top {
+  margin-top: 5em; }
+
+.mid-margin-bottom {
+  margin-bottom: 5em; }
+
+.small-side-padding {
+  padding: 0 2em; }

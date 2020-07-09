@@ -1,0 +1,110 @@
+body{
+    font-size: 150%;
+}
+
+.wrapper{
+    display: grid;
+    grid-auto-rows: minmax(300px, auto);
+}
+
+.wrapper >div{
+    background-color: grey;
+    font-size: 150%;
+    padding: 1em;
+}
+
+.wrapper >div:nth-child(odd){
+    background-color: lightgray;
+}
+
+.nav-wrapper{
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+.inner-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.inner-nav > a{
+    margin: auto;
+}
+
+.big-header-text{
+    font-size: 300%;
+    margin-top: 4em;
+}
+
+.big-margin-bottom{
+    margin-bottom: 10em;
+}
+
+.about-wrapper{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+
+}
+
+.about-wrapper >div:nth-child(even){
+    background-color: lightblue;
+
+}
+.about-mrg{
+    margin:3em 0em;
+}
+
+.inner-wrapper{
+    display: grid;
+}
+
+.small-company-icon{
+    width: 3vw ;
+    border-radius: 100%;
+}
+
+.medium-image{
+    border-radius: 100%;
+    margin-bottom: 2em;
+}
+
+.start-text-justify{
+    text-align: start;
+}
+
+.five-col-wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.five-col-wrapper-text{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: start;
+}
+.five-col-wrapper-text >div{
+    margin: 2%;
+}
+
+.mid-margin-top{
+    margin-top: 5em ;
+}
+
+.mid-margin-bottom{
+    margin-bottom: 5em;
+}
+
+.small-side-padding{
+    padding: 0em 2em;
+}
+
+.three-col-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.side-2em-margin{
+    margin: 0em 2em;
+}
